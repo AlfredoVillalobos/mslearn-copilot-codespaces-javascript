@@ -123,3 +123,17 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+
+/* add a amizing animation to the social icon */
+img.socialIcon:hover {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
